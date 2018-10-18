@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+.left{
+    display: inline-block;
+    width:30%;
+}
+.middle{
+    display: inline-block;
+    width:30%;
+    vertical-align: top;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.right{
+    display: inline-block;
+    width:30%;
+    vertical-align: top;
+}
+a{
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+}

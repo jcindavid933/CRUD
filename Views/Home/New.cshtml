@@ -1,0 +1,64 @@
+@model CRUDelicious.Models.User
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CRUDelicious</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="~/css/style.css"/>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Add a new Dish!</h1>
+        <a href="/">Home</a><br><br>
+        <form asp-action="Make" asp-controller="Home" method="post">
+            <div class="left">
+                <div class="form-group">
+                    <label asp-for="name">Chef's Name</label>
+                    <input asp-for="name" type="text" class="form-control" id="exampleFormControlInput1">
+                    <span asp-validation-for="name"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="dish">Name of Dish</label>
+                    <input asp-for="dish" type="text" class="form-control" id="exampleFormControlInput1">
+                    <span asp-validation-for="dish"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="calories"># of Calories</label>
+                    <input asp-for="calories" type="number" class="form-control" id="exampleFormControlInput1">
+                    <span asp-validation-for="calories"></span>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="col-auto my-1">
+                    <label asp-for="tastiness">Tastiness</label>
+                    <select asp-for="tastiness" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected="true" disabled="disabled">Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <span asp-validation-for="tastiness"></span>
+                </div>
+            </div>
+            <div class="right">
+                <div class="form-group">
+                    <label asp-for="description">Description</label>
+                    <textarea asp-for="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <span asp-validation-for="description"></span>
+                </div>
+                <br><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

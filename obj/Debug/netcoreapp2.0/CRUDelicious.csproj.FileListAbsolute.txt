@@ -1,0 +1,10 @@
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.deps.json
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.runtimeconfig.json
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.runtimeconfig.dev.json
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.dll
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/bin/Debug/netcoreapp2.0/CRUDelicious.pdb
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.csproj.CoreCompileInputs.cache
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.AssemblyInfoInputs.cache
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.AssemblyInfo.cs
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.dll
+/Users/david/Desktop/Coding Dojo/csharp/CRUDelicious/obj/Debug/netcoreapp2.0/CRUDelicious.pdb
